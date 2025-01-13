@@ -1,0 +1,5 @@
+com\example\util\SampleInterceptor.class
+com\example\resource\SampleResource.class
+com\example\application\ApplicationConfig.class
+com\example\service\SampleService.class
+com\example\util\InterceptorAnnotation.class
