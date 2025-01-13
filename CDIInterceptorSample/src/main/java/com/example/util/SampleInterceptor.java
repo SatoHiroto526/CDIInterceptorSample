@@ -15,8 +15,6 @@ public class SampleInterceptor {
 	@AroundInvoke
 	public Object obj(InvocationContext ic){
 		Object result = null;
-		//クラス名取得
-		String className = ic.getClass().getName();
 		//メソッド名取得
 		String methodName = ic.getMethod().getName();
 		try {
